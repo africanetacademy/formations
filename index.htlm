@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AfriNet Academy – Apprends et gagne en ligne</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 30px 20px 10px;
+    }
+
+    header img {
+      width: 100px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #000;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    p.slogan {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #eee;
+    }
+
+    .btn-container {
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 400px;
+    }
+
+    .btn {
+      background-color: #ffd700;
+      color: #000;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      box-shadow: 0 5px 10px rgba(255, 215, 0, 0.5);
+    }
+
+    .btn:hover {
+      background-color: #e6c200;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    @media(max-width: 480px) {
+      h1 { font-size: 2em; }
+      .btn { font-size: 1em; padding: 12px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Afrique_logo.png" alt="Logo AfriNet Academy">
+    <h1>AfriNet Academy</h1>
+    <p class="slogan">Forme-toi. Lance-toi. Gagne de l’argent en ligne.</p>
+  </header>
+
+  <div class="btn-container">
+    <a href="#" class="btn">📱 Gagner avec son téléphone</a>
+    <a href="#" class="btn">💼 Freelance & plateformes</a>
+    <a href="#" class="btn">💰 Marketing d'affiliation</a>
+    <a href="#" class="btn">📚 Créer et vendre des e-books</a>
+    <a href="#" class="btn">🤖 Intelligence Artificielle</a>
+    <a href="#" class="btn">🎓 Coaching personnalisé</a>
+  </div>
+
+  <footer>
+    © 2025 AfriNet Academy – Tous droits réservés | contact@africanetacademy.com
+  </footer>
+
+</body>
+</html>
